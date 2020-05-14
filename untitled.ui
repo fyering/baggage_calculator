@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>widget</class>
+ <widget class="QWidget" name="widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>730</width>
+    <height>602</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>行李计算器</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/fyrhythm/Pictures/1239651.gif</normaloff>C:/Users/fyrhythm/Pictures/1239651.gif</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>航线区域类型</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="airline">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="currentText">
+    <string>国内</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>国内</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>区域一</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>区域二</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>区域三</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>区域四</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>区域五</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>41</width>
+     <height>9</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>始发航站</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="start">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>41</width>
+     <height>9</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>机舱</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="jicang">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>豪华头等舱</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>头等舱</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>公务舱</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>悦享经济舱</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>超级经济舱</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>经济舱</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>41</width>
+     <height>9</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>客票类型</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="kepiaotype">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>136</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>成人票</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>儿童票</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>婴儿票</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>41</width>
+     <height>9</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>会员</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="huiyuan">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>170</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>无</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>凤凰知音终身白金卡</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>凤凰知音白金卡</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>凤凰知音金卡</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>凤凰知音银卡</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>星空联盟金卡</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>200</y>
+     <width>41</width>
+     <height>9</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>票价</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="price">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>200</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>添加行李</string>
+   </property>
+  </widget>
+  <widget class="QListView" name="baggage">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>0</y>
+     <width>321</width>
+     <height>271</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirm">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>280</y>
+     <width>311</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>320</y>
+     <width>401</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>区域一;美洲（除美国/加拿大外）/加勒比海地区与欧洲/非洲/中东/亚洲/西南太平洋之间的航线；</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>340</y>
+     <width>521</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>区域二：欧洲/中东与非洲/亚洲/西南太平洋之间航线；日本与西南太平洋之间航线；日本/西南太平洋与亚洲
+（不含日本及西南太平洋）/非洲之间航线</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>359</y>
+     <width>441</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>区域三：加拿大与美洲（除美国/加拿大外）/加勒比海地区/欧洲/非洲/中东/亚洲/西南太平洋之间航线；</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>380</y>
+     <width>431</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>区域四：美国（含夏威夷）与美洲（除美国外）/加勒比海地区/欧洲/非洲/中东/亚洲/西南太平洋之间航线；</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>400</y>
+     <width>441</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>区域五:非洲与亚洲（除日本外)之间航线；欧洲与中东之间航线；亚洲（除日本)内航线；美洲（除美国/加拿大）及加勒比海地区内航线；
+上述未列明的航线</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
