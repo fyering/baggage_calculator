@@ -1,0 +1,33 @@
+testCalculator_01 (__main__.DataTest) ... ok
+testCalculator_02 (__main__.DataTest) ... ok
+testCalculator_03 (__main__.DataTest) ... ok
+testCalculator_04 (__main__.DataTest) ... ok
+testCalculator_05 (__main__.DataTest) ... ok
+testCalculator_06 (__main__.DataTest) ... ok
+testCalculator_07 (__main__.DataTest) ... ok
+testCalculator_08 (__main__.DataTest) ... ok
+testCalculator_09 (__main__.DataTest) ... ok
+testCalculator_10 (__main__.DataTest) ... ok
+testCalculator_11 (__main__.DataTest) ... ok
+testCalculator_12 (__main__.DataTest) ... ok
+testCalculator_13 (__main__.DataTest) ... ok
+testCalculator_14 (__main__.DataTest) ... ok
+testCalculator_15 (__main__.DataTest) ... ok
+testCalculator_16 (__main__.DataTest) ... ok
+testCalculator_17 (__main__.DataTest) ... ok
+testCalculator_18 (__main__.DataTest) ... ok
+testCalculator_19 (__main__.DataTest) ... ok
+testCalculator_20 (__main__.DataTest) ... ok
+testCalculator_21 (__main__.DataTest) ... ok
+testCalculator_22 (__main__.DataTest) ... ok
+testCalculator_23 (__main__.DataTest) ... ok
+testCalculator_24 (__main__.DataTest) ... ok
+testCalculator_25 (__main__.DataTest) ... ok
+testCalculator_26 (__main__.DataTest) ... ok
+testCalculator_27 (__main__.DataTest) ... ok
+testCalculator_28 (__main__.DataTest) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.002s
+
+OK
