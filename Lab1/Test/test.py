@@ -1,6 +1,12 @@
 # coding=utf-8
 import sys
 import unittest,os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+PathProject = os.path.split(rootPath)[0]
+sys.path.append(rootPath)
+sys.path.append(PathProject)
+
 from ddt import ddt,data,unpack
 from Test.ExcelUtil import ExcelUtil
 from BaggageCalculator.Calculator import Calculator
@@ -9,7 +15,7 @@ from BaggageCalculator.SpecialPackage import SpecialPackage
 from BaggageCalculator.Ticket import Ticket
 import HTMLTestRunner
 
-excel = ExcelUtil("D:\\Course\\Lab1\\Lab1\\Testcase\\TEST.xlsx", '黑盒测试')
+excel = ExcelUtil("../Testcase/TEST.xlsx", '黑盒测试')
 @ddt
 class DataTest(unittest.TestCase):
     @classmethod
